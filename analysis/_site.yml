@@ -1,7 +1,7 @@
-name: "Test_Project"
+name: Test_Project
 output_dir: ../docs
 navbar:
-  title: "Test_Project"
+  title: Test_Project
   left:
   - text: Home
     href: index.html
@@ -11,6 +11,10 @@ navbar:
     href: license.html
   - text: Simple_plots
     href: simple_plots.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/Test_Project/Test_Project
 output:
   workflowr::wflow_html:
     toc: yes
