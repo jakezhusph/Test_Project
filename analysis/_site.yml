@@ -14,7 +14,7 @@ navbar:
   right:
   - icon: fa-github
     text: Source code
-    href: https://github.com/Test_Project2/Test_Project
+    href: https://github.com/jakezhusph/Test_Project
 output:
   workflowr::wflow_html:
     toc: yes
